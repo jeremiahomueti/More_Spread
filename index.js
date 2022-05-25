@@ -5,7 +5,7 @@ const arr1 = ['Jan', 'Feb', 'Mar', 'Apr', 'May'];
 let arr2;
 (function ()
 {
-    arr2 = ...arr1; 
+    arr2 = arr1; 
     arr1[0] = 'potato'
 }
 ) ();
@@ -24,4 +24,9 @@ index1.js, where we replace arr2 = arr1 with, arr2 = ...arr1
 
 Although, we can't simply leave the expression as ...arr1, 
 because it's not going to work.
+
+We'll have to include a bracket at both sides because the data 
+in question is an array. 
+
+...to be continued [see index1.js]...
 */
